@@ -21,7 +21,7 @@ It's only a little step but multiplier can be high. Less JavaScript means less e
 
 ## Getting Started
 
-Download the repo and see the [demo](https://greencloudify.github.io/sustainable-inputs/)
+Download the repo and see the [demo](https://klausruhland.github.io/sustainable-inputs/)
 
 
 <!-- LICENSE -->
