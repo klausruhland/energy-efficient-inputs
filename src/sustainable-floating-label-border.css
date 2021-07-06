@@ -1,0 +1,60 @@
+
+label.sustainable-floating-label-border { 
+  position:relative; 
+}  
+
+label.sustainable-floating-label-border input:invalid{
+  color: red;
+  border-color: red;
+}
+label.sustainable-floating-label-border input:valid{
+  color: inherit;
+}
+label.sustainable-floating-label-border input:invalid ~ span.label{
+  color: red;
+}
+label.sustainable-floating-label-border input:valid ~ span.label{
+  color: inherit;
+}
+
+
+label.sustainable-floating-label-border input{
+  padding: 0.8em 0.2em 0.3em 0.2em;
+  display: block;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: inherit;
+}
+label.sustainable-floating-label-border input:not(focus){
+  opacity: 0.5;
+}
+label.sustainable-floating-label-border input:focus { 
+  outline:none; 
+}
+label.sustainable-floating-label-border span.label{
+  font-size: inherit;
+  position: relative;
+  pointer-events:none;
+  opacity: 0.5;
+  left: 0.3em;
+  width: max-content;
+  top: -1.4em;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+
+label.sustainable-floating-label-border input:focus ~ span.label, label.sustainable-floating-label-border input:not(:placeholder-shown) ~ span.label 		{
+top:-4.5em;
+left: 4px;
+font-size:0.6em;
+}
+  
+label.sustainable-floating-label-border input:focus, label.sustainable-floating-label-border input:not(:placeholder-shown){
+  opacity: 1.0;
+}
+
+

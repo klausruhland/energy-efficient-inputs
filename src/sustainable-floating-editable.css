@@ -1,0 +1,53 @@
+
+/* cssonly-floating-editable */
+
+  fieldset.sustainable-floating-editable { 
+      padding-bottom: 0em; 
+      border: 1px solid;
+      position:relative; 
+      border-radius: 3px;
+  }
+  
+  fieldset.sustainable-floating-editable div.content{
+    padding: 0.8em 0em 0.3em 0em;
+    padding-top: 0.4em;
+    margin-left: -0.5em;
+    border: none;
+    display: block;
+    width: 100%;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+  }
+  
+  
+  fieldset.sustainable-floating-editable div.content:not(focus){
+    opacity: 0.5;
+  }
+  fieldset.sustainable-floating-editable div.content:focus { 
+    outline:none; 
+  }
+  fieldset.sustainable-floating-editable span.label{
+    color: inherit; 
+    font-size: inherit;
+    position: absolute;
+    pointer-events:none;
+    opacity: 0.5;
+    left: 0.3em;
+    width: max-content;
+    top: 0.8em;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  fieldset.sustainable-floating-editable div.content:focus ~ span, fieldset.sustainable-floating-editable div.content:not(:empty) ~ span 		{
+    top: -0.1em;
+    left: 3px;
+    font-size:0.6em;
+    color:inherit;
+  }
+      
+    fieldset.sustainable-floating-editable div.content:focus, fieldset.sustainable-floating-editable div.content:not(:empty){
+      opacity: 1.0;
+    }
+      
