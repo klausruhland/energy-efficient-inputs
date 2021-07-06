@@ -1,0 +1,53 @@
+
+label.sustainable-checkbox {
+    position: relative;
+}
+
+label.sustainable-checkbox input[type="checkbox"]{
+    -webkit-appearance: none;
+}
+
+label.sustainable-checkbox span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: max-content;
+    padding-left: 2em;
+}
+
+label.sustainable-checkbox span:before {
+    display: flex;
+    content: ' ';
+    position: absolute;
+    top: -0.2em;
+    left: -0.2em;
+    height: 1.4em;
+    width: 1.4em;
+    border: solid 2px;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+label.sustainable-checkbox span:after {
+    display: flex;
+    content: '\2713';
+    position: absolute;
+    top: 0.0em;
+    left: 0.3em;
+    width: 1.2em;
+    height: 1.2em;
+    transform: scale(0);
+    transition: transform 0.1s ease;
+}
+
+label.sustainable-checkbox input[type="checkbox"]:checked ~ span:after{
+    transform: scale(1);
+}
+
+label.sustainable-checkbox input[type="checkbox"]:checked ~ span:before{
+    opacity: 1.0;
+}
+
+label.sustainable-checkbox input[type="checkbox"]:not(:checked) ~ span:before{
+    background-color: red;
+    opacity: 0.2;
+}
