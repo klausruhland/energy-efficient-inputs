@@ -118,23 +118,23 @@ div.title div.subtitle{
 
 
 .themeswitch-checkbox:checked ~ .page {
+  color:#002200;
+  background-color: white;
+}
+
+.themeswitch-checkbox:not(:checked) ~ .page {
   background-color:#002200;
   color: white;
 }
 
-.themeswitch-checkbox:not(:checked) ~ .page {
-  color:#002200;
-  background-color: white;
-}
-
 .themeswitch-checkbox:checked ~ div.title {
-  background-color:#004400;
-  color: white;
-  border-color: white;
-}
-
-.themeswitch-checkbox:not(:checked) ~ div.title {
   color:#002200;
   background-color: white;
   border-color:#004400;
+}
+
+.themeswitch-checkbox:not(:checked) ~ div.title {
+  background-color:#004400;
+  color: white;
+  border-color: white;
 }
