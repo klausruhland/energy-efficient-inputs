@@ -3,7 +3,7 @@
 -->
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About CSSonly Inputs with Validation
 
 sustainable-inputs is a collection of html inputs and css definitions without any use of JavaScript. 
 Client-side input validation is only based on the input attributes
