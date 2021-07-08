@@ -3,7 +3,7 @@
 -->
 
 <!-- ABOUT THE PROJECT -->
-## About the Project Sustainable Inputs
+## About the Project: Sustainable Inputs by Klaus Ruhland
 
 sustainable-inputs is a collection of floating labeled html inputs and their css definitions without any use of JavaScript. 
 Additionally input validation is provided based on the input attributes
