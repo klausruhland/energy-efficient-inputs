@@ -60,7 +60,7 @@ div.title div.subtitle{
 .themeswitch-label {
   z-index: 50;
   position: absolute;
-  right: 120px;
+  left: 140px;
   top: 80px;
   width: 90px;
   height: 34px;
