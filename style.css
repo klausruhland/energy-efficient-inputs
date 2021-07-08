@@ -21,11 +21,11 @@ div.title {
   background-size: contain;
 }
 
-div.title div.title{
+div.title h1{
   font-size: 1.8em;
   font-weight: 200;
 }
-div.title div.subtitle{
+div.title h2{
   font-size: 1em;
   font-weight: 100;
   margin-top: 40px;
