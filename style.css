@@ -26,12 +26,6 @@ div.title h1{
   font-weight: 200;
   margin: 0;
 }
-div.title h2{
-  font-size: 1em;
-  font-weight: 100;
-  margin: 0;
-}
-
 
 .page {
   position: absolute;
@@ -42,9 +36,21 @@ div.title h2{
   font-weight: 300;
   font-size: 1.2em;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 120px;
   overflow-y: auto;
   box-sizing: border-box;
+}
+
+.page h1{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.page h2{
+  font-size: 0.9em;
+  font-weight: 200;
+}
+.page h3{
+  font-weight: bold;
 }
 
 .page h4{
@@ -62,7 +68,7 @@ div.title h2{
   z-index: 50;
   position: absolute;
   left: 140px;
-  top: 80px;
+  top: 65px;
   width: 90px;
   height: 34px;
   display: block; 
