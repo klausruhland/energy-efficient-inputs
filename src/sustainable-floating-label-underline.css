@@ -24,6 +24,7 @@ label.sustainable-floating-label-underline input{
   width: 100%;
   border:none;
   border-bottom: 1px solid;
+  border-radius: 0;
   background-color: transparent;
   font-size: inherit;
 }
@@ -33,6 +34,7 @@ label.sustainable-floating-label-underline input:not(focus){
 label.sustainable-floating-label-underline input:focus { 
   outline:none; 
   border-bottom: 2px solid;
+  border-radius: 0;
 }
 label.sustainable-floating-label-underline span.label{
   font-size: inherit;
