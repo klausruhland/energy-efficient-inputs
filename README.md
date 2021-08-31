@@ -21,7 +21,7 @@ Additionally input validation is provided based on the html input attributes
 
 ## Getting Started
 
-Download the repo and see the working [Demo](https://klausruhland.github.io/sustainable-inputs/)
+Download the repo and see the working [Demo](https://klausruhland.github.io/energy-efficient-inputs/)
 
 
 <!-- LICENSE -->
