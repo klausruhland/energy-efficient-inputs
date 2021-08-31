@@ -3,18 +3,16 @@
 -->
 
 <!-- ABOUT THE PROJECT -->
-## About the Project: Sustainable Inputs
-### Energy saving software
+## Energy Efficient Inputs
+### sustainable software components 
 
-sustainable-inputs is a collection of floating labeled html inputs and their css definitions without any use of JavaScript. 
+energy-efficient-inputs is a collection of floating labeled html inputs and their css definitions without any use of JavaScript. 
 Additionally input validation is provided based on the html input attributes
 * required
 * type (email,number,...)
 * pattern
 
 ## Sustainability
-
-sustainable-inputs do not need JavaScript at all. Less JavaScript means less power consumption. It's only a little step but the multiplier can be high.
 
 1. No JavaScript is used, network traffic is reduced
 2. Client-side validation is done only with CSS - no JavaScript framework is needed
