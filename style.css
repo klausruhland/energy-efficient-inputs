@@ -146,11 +146,10 @@ div.title h1{
   }
   .themeswitch-checkbox:checked ~ .page {
     color: #111111;
-    background-color: darkorange;
+    background-color: white;
   }
   .themeswitch-checkbox:checked ~ .page a{
-    color: #111111;
-    background-color: white;
+    color: darkorange;
   }
 }
 @media only screen and (min-width: 601px) {
