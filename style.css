@@ -119,22 +119,22 @@ div.title h1{
     content: "dark";
     padding-left: 10px;
     background-color: white; 
-    color: #002200;
+    color: #111111;
   }
   .themeswitch-inner:after {
-    content: "dark";
+    content: "bright";
     padding-right: 10px;
-    background-color: #002200; 
+    background-color: #111111; 
     color: white;
     text-align: right;
   }
   .themeswitch-checkbox:checked ~ div.title {
-    color:#002200;
+    color:#111111;
     background-color: white;
-    border-color:#004400;
+    border-color:#000000;
   }
   .themeswitch-checkbox:not(:checked) ~ div.title {
-    background-color:#004400;
+    background-color:#000000;
     color: white;
     border-color: white;
   }
@@ -152,24 +152,24 @@ div.title h1{
     content: "bright";
     padding-left: 10px;
     background-color: white; 
-    color: #002200;
+    color: #111111;
   }
   .themeswitch-inner:after {
     content: "dark";
     padding-right: 10px;
-    background-color: #002200; 
+    background-color: #111111; 
     color: white;
     text-align: right;
   }
   .themeswitch-checkbox:checked ~ div.title {
-    background-color:#004400;
+    background-color:#000000;
     color: white;
     border-color: white;
   }
   .themeswitch-checkbox:not(:checked) ~ div.title {
-    color:#002200;
+    color:#111111;
     background-color: white;
-    border-color:#004400;
+    border-color:#000000;
   }
   .themeswitch-checkbox:not(:checked) ~ .page {
     color:#111111;
