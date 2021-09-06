@@ -43,7 +43,7 @@ div.title h1{
 }
 
 .page h1{
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 .page h2{
@@ -70,7 +70,7 @@ div.title h1{
 .themeswitch-label {
   z-index: 50;
   position: absolute;
-  right: 110px;
+  right: 10px;
   top: 15px;
   width: 90px;
   height: 34px;
@@ -145,8 +145,8 @@ div.title h1{
     color: white;
   }
   .themeswitch-checkbox:checked ~ .page {
-    color: darkorange;
-    background-color: white;
+    color: #111111;
+    background-color: darkorange;
   }
   .themeswitch-checkbox:checked ~ .page a{
     color: #111111;
