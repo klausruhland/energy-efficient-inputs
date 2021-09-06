@@ -61,6 +61,8 @@ div.title h1{
 }
 
 
+/* themeswitch parameters */
+
 .themeswitch-checkbox {
   -webkit-appearance: none;
 }
@@ -93,19 +95,6 @@ div.title h1{
   font-size: 14px;
   box-sizing: border-box;
 }
-.themeswitch-inner:before {
-  content: "bright";
-  padding-left: 10px;
-  background-color: white; 
-  color: #002200;
-}
-.themeswitch-inner:after {
-  content: "dark";
-  padding-right: 10px;
-  background-color: #002200; 
-  color: white;
-  text-align: right;
-}
 .themeswitch-switch {
   display: block; width: 18px; margin: 6px;
   background: #FFFFFF;
@@ -123,29 +112,76 @@ div.title h1{
 }
 
 
+
+
 @media only screen and (max-width: 600px) {
+  .themeswitch-inner:before {
+    content: "dark";
+    padding-left: 10px;
+    background-color: white; 
+    color: #002200;
+  }
+  .themeswitch-inner:after {
+    content: "dark";
+    padding-right: 10px;
+    background-color: #002200; 
+    color: white;
+    text-align: right;
+  }
+  .themeswitch-checkbox:checked ~ div.title {
+    color:#002200;
+    background-color: white;
+    border-color:#004400;
+  }
+  .themeswitch-checkbox:not(:checked) ~ div.title {
+    background-color:#004400;
+    color: white;
+    border-color: white;
+  }
+  .themeswitch-checkbox:not(:checked) ~ .page {
+    background-color:#111111;
+    color: white;
+  }
   .themeswitch-checkbox:checked ~ .page {
     color:#111111;
     background-color: white;
   }
 }
-
-.themeswitch-checkbox:not(:checked) ~ .page {
-  background-color:#002200;
-  color: white;
+@media only screen and (min-width: 601px) {
+  .themeswitch-inner:before {
+    content: "bright";
+    padding-left: 10px;
+    background-color: white; 
+    color: #002200;
+  }
+  .themeswitch-inner:after {
+    content: "dark";
+    padding-right: 10px;
+    background-color: #002200; 
+    color: white;
+    text-align: right;
+  }
+  .themeswitch-checkbox:checked ~ div.title {
+    background-color:#004400;
+    color: white;
+    border-color: white;
+  }
+  .themeswitch-checkbox:not(:checked) ~ div.title {
+    color:#002200;
+    background-color: white;
+    border-color:#004400;
+  }
+  .themeswitch-checkbox:not(:checked) ~ .page {
+    color:#111111;
+    background-color: white;
+  }
+  .themeswitch-checkbox:checked ~ .page {
+    background-color:#111111;
+    color: white;
+  }
 }
 
-.themeswitch-checkbox:checked ~ div.title {
-  color:#002200;
-  background-color: white;
-  border-color:#004400;
-}
 
-.themeswitch-checkbox:not(:checked) ~ div.title {
-  background-color:#004400;
-  color: white;
-  border-color: white;
-}
 
 #forkongithub a{
   background:#f00;
