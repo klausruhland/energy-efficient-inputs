@@ -116,13 +116,13 @@ div.title h1{
 
 @media only screen and (max-width: 600px) {
   .themeswitch-inner:before {
-    content: "dark";
+    content: "bright";
     padding-left: 10px;
     background-color: white; 
     color: #111111;
   }
   .themeswitch-inner:after {
-    content: "bright";
+    content: "dark";
     padding-right: 10px;
     background-color: #111111; 
     color: white;
@@ -149,13 +149,13 @@ div.title h1{
 }
 @media only screen and (min-width: 601px) {
   .themeswitch-inner:before {
-    content: "bright";
+    content: "dark";
     padding-left: 10px;
     background-color: white; 
     color: #111111;
   }
   .themeswitch-inner:after {
-    content: "dark";
+    content: "bright";
     padding-right: 10px;
     background-color: #111111; 
     color: white;
