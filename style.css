@@ -148,7 +148,7 @@ div.title h1{
     color: #111111;
     background-color: white;
   }
-  .themeswitch-checkbox:checked ~ .page a{
+  .themeswitch-checkbox:not(:checked) ~ .page a{
     color: darkorange;
   }
 }
