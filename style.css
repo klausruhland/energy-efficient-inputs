@@ -146,6 +146,10 @@ div.title h1{
     color:#111111;
     background-color: white;
   }
+  .themeswitch-checkbox:checked ~ .page a{
+    color: darkorange;
+    background-color: white;
+  }
 }
 @media only screen and (min-width: 601px) {
   .themeswitch-inner:before {
